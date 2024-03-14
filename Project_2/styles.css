@@ -1,0 +1,70 @@
+/* Reset some basic elements for consistency */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #909193;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Center the content */
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+header, section, footer {
+    margin-bottom: 20px;
+    text-align: center; /* Centering text */
+}
+
+/* Styling the image */
+.profile {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Shadow effect */
+    margin-bottom: 20px;
+}
+
+/* Links and Buttons */
+a {
+    display: inline-block;
+    background-color: #2a69ac;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Project and Experience sections */
+article, div {
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+h3 {
+    color: #007bff;
+}
+
+footer p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+/* Additional Styling */
+/* You can add more styling here as needed */
